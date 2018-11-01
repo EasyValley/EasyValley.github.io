@@ -6,6 +6,9 @@
 # 创建相机 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 # 创建渲染器 var renderer = new THREE.WebGLRenderer({antialias: true});
 # 渲染看到的内容 renderer.render(scene, camera);
+# [mesh模型](https://sketchfab.com/models?features=downloadable&sort_by=-likeCount)
+# [模型软件](https://www.blender.org/)
+# 模型使用[loader](https://threejs.org/docs/index.html#api/en/loaders/AnimationLoader)加载
 
 ``` javascript
 
