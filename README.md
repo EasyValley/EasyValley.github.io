@@ -1,4 +1,11 @@
 
+# 物理引擎可以使用 [Physijs](https://github.com/chandlerprall/Physijs)
+
+# 创建场景 var scene = new THREE.Scene();
+# 创建网格把网格添加到场景 var cube = new THREE.Mesh(geometry, material);   scene.add(cube);
+# 创建相机 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+# 创建渲染器 var renderer = new THREE.WebGLRenderer({antialias: true});
+# 渲染看到的内容 renderer.render(scene, camera);
 
 ``` javascript
 
